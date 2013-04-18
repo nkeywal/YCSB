@@ -80,6 +80,7 @@
           <version>${hbase.version}</version>
         </dependency>
       </dependencies>
+
     </profile>
 
   </profiles>
