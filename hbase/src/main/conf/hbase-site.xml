@@ -24,12 +24,12 @@
 <configuration>
   <property>
     <name>hbase.rootdir</name>
-    <value>hdfs://azwaw/hbase</value>
+    <value>hdfs://HBASE_IT_BOX_0/hbase</value>
     <description>The directory shared by region servers.
     </description>
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
-    <value>azwaw</value>
+    <value>HBASE_IT_BOX_0</value>
   </property>
 </configuration>
