@@ -24,12 +24,12 @@
 <configuration>
   <property>
     <name>hbase.rootdir</name>
-    <value>hdfs://azwaw/hbase</value>
+    <value>hdfs://ec2-107-21-164-196.compute-1.amazonaws.com/hbase</value>
     <description>The directory shared by region servers.
     </description>
   </property>
   <property>
     <name>hbase.zookeeper.quorum</name>
-    <value>azwaw</value>
+    <value>ec2-107-21-164-196.compute-1.amazonaws.com</value>
   </property>
 </configuration>
