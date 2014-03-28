@@ -71,8 +71,10 @@
     </profile>
 
     <profile>
-      <!-- This profile is intended for HBase since version 0.95
-           mvn clean package -Dhbase-client -Dhbase.version=0.95.2-hadoop2
+      <!-- This profile is intended for HBase since version 0.95. Ex for HBase 0.98.0:
+           mvn clean package -DskipTests -Dhbase.version=0.98.0-hadoop2 -Dhbase-client
+
+           Don't do simultaneously mvn install & mvn package, YCSB does not like it.
        -->
       <id>hbase-client</id>
       <activation>
